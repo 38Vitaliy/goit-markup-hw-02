@@ -1,0 +1,47 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.25);
+  --title-text-colir: #000000;
+  --accent-color: #d9d9d9;
+  --primary-bg-color: #ffffff;
+}
+
+.body {
+  background-color: #000000;
+}
+
+.ul nav {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: brown;
+}
+
+.section-title {
+  color: #f0f0f0;
+}
+
+/* Section 2 */
+
+.link {
+  color: aqua;
+}
+
+/* Section 2 */
+
+.feature-list .title {
+  color: #f0f0f0;
+}
+
+/* Button */
+
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+/* color: #D9D9D9;  E7E9FC*/
+/*FFFFFF*/
+/*0000008*/
+/*background: #D9D9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
