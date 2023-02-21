@@ -1,8 +1,10 @@
 :root {
   --primary-text-color: rgba(0, 0, 0, 0.25);
-  --title-text-colir: #000000;
+  --title-text-col0r: #000000;
   --accent-color: #d9d9d9;
   --primary-bg-color: #ffffff;
+  --cloud-color;
+  --cornflawer-color;
 }
 
 .body {
@@ -45,3 +47,25 @@
 /*0000008*/
 /*background: #D9D9D9;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+
+/* footer */
+
+.footer {
+  background-color: var(--title-text-color);
+}
+
+.logo-footer {
+  font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--cloud-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cornflawer-color);
+}
