@@ -5,16 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
-      <nav class="nav">
-        <a href="./index.html" class="logo">WebStudio</a>
-        <ul class="nav_list">
-          <li><a href="" class="nav_link">Studio</a></li>
-          <li><a href="./portfolio.html" class="nav_link">Portfolio</a></li>
-          <li><a href="" class="nav_link">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a href="./index.html" class="header-logo">WebStudio</a>
+        <ul class="header-list list">
+          <li class="header-item"><a href="" class="header-logo">Studio</a></li>
+          <li class="header-item">
+            <a href="./portfolio.html" class="header-logo">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a href="" class="header-logo">Contacts</a>
+          </li>
         </ul>
       </nav>
       <!-- address -->
@@ -24,7 +34,9 @@
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a href="tel:+110001111111" class="header-tel"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -33,38 +45,38 @@
     <!-- Section 1 -->
     <main>
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button class="link" type="button">Order Service</button>
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="header-btn" type="button">Order Service</button>
       </section>
       <!-- /Section 1 -->
       <!-- Section 2-->
       <section class="hero">
         <h2 class="hero-title" style="display: none">Our Advantages</h2>
         <ul class="feature-list">
-          <li class="img-team">
+          <li>
             <h3 class="title">Strategy</h3>
-            <p class="position">
+            <p class="hero-description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="workers-name">Punctuality</h3>
-            <p class="position">
+            <h3 class="title">Punctuality</h3>
+            <p class="hero-description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li class="img-team">
+          <li class="team">
             <h3 class="workers-name">Diligence</h3>
-            <p class="position">
+            <p class="hero-description">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li class="img-team">
+          <li class="team">
             <h3 class="workers-name">Technologies</h3>
-            <p class="position">
+            <p class="hero-description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>

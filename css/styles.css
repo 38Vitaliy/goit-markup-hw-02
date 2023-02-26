@@ -1,5 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+  .header {
+  }
+  .header-navigation {
+  }
+  .header-logo {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+    /* identical to box height, or 150% */
+    /* NAVY BLUE */ 
+  }
+  .header-list {
+  }
+  .header-item {
+  }
+  .auth-nav {
+  }
+  .img-team {
+  }
+  .header-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #D9D9D9;
+  }
+  .header-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    /* Inside auto layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+  }
+
+
 :root {
   --primary-text-color: rgba(0, 0, 0, 0.25);
+  --primary-white-color #ffffff;
   --title-text-col0r: #000000;
   --accent-color: #d9d9d9;
   --primary-bg-color: #ffffff;
@@ -68,4 +124,29 @@ color: var(--cloud-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cornflawer-color);
+}
+
+/* Portfolio Button */
+
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+
+  font-size: 14px;
+  padding: 8px 24px;
+  display: inline-block;
+
+}
+
+.button.primary {
+color: var(--primary-white-color);
+border-color: var(--accent-color);
+border-color: transparent;
+
+}
+
+.button.secondary {
+color: var(--accent-color);
+background-color: var(--primary-white-color);
+border-color: blue;
 }
