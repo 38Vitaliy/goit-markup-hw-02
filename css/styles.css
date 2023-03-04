@@ -13,16 +13,19 @@ body {
 .header {
 }
 
-/* Hover/Focus
-  .header-link:hover,
-  .header-link:focus {
-    color: #ff6c00;
-  }
-   /* Hover/Focus*/
+/* Hover/Focus */
+.header-link:hover {
+  color: blue;
+}
+.header-link:focus {
+  color: red;
+}
+/* Hover/Focus*/
 
 .header {
 }
 .header-navigation {
+  color: #4d5ae5;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -34,6 +37,11 @@ body {
 }
 
 .header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .link {
 }
@@ -54,6 +62,27 @@ body {
   letter-spacing: 0.02em;
   color: #d9d9d9;
 }
+/*------------- Section 1 ---------*/
+
+.hero {
+}
+.hero-title {
+}
+.header-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*------------- /Section 1 ---------*/
 /*------------- Section 2 ---------*/
 
 .hero {
@@ -140,6 +169,7 @@ body {
 /*----------Footer ---------*/
 
 .footer {
+  background: #2e2f42;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -154,8 +184,26 @@ body {
   color: #f4f4fd;
 }
 .logo {
+  width: 44px;
+  height: 22px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+
+  width: 71px;
+  height: 21px;
+  font-family: "Raleway";
+  align-items: center;
 }
 .footer-text {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -201,8 +249,56 @@ body {
   order: 0;
   flex-grow: 0;
 }
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/* Portfolio Button */
 
-/* Portfolio Button
+.button .primary:hover {
+  color: red;
+}
+.button .secondary:focus {
+  color: greenyellow;
+}
+.button {
+}
+.primary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.functions {
+}
+.function {
+}
+.function-item {
+}
+.function-img {
+}
+.function-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.function-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ----------Portfolio------*/
+/* 1 Portfolio Button 1 /
 
 .button {
   color: var(--primary-text-color);
@@ -224,4 +320,4 @@ body {
   background-color: var(--primary-white-color);
   border-color: blue;
 }
-/* ----------Portfolio------*/
+/* 1----------Portfolio------1*/
