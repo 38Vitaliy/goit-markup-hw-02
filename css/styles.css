@@ -13,15 +13,6 @@ body {
 .header {
 }
 
-/* Hover/Focus */
-.header-link:hover {
-  color: blue;
-}
-.header-link:focus {
-  color: red;
-}
-/* Hover/Focus*/
-
 .header {
 }
 .header-navigation {
@@ -184,8 +175,6 @@ body {
   color: #f4f4fd;
 }
 .logo {
-  width: 44px;
-  height: 22px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -195,15 +184,20 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
-  width: 71px;
-  height: 21px;
-  font-family: "Raleway";
-  align-items: center;
 }
+.logo span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
 .footer-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -252,12 +246,6 @@ body {
 /*-------------------------------------------------------------------------------------------------------------------------*/
 /* Portfolio Button */
 
-.button .primary:hover {
-  color: red;
-}
-.button .secondary:focus {
-  color: greenyellow;
-}
 .button {
 }
 .primary {
@@ -274,6 +262,13 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
+.button .primary:hover {
+  color: red;
+}
+.button .secondary:focus {
+  color: greenyellow;
+}
+
 .functions {
 }
 .function {
