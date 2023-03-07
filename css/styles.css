@@ -4,7 +4,22 @@ body {
 .link {
   text-decoration: none;
 }
+* {
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /*------- Header----------*/
 .header-navigation {
   color: #4d5ae5;
@@ -13,9 +28,7 @@ body {
 .site-nav .link:focus {
   color: #2e2f42;
 }
-.list {
-  list-style: none;
-}
+
 .site-nav .link.current {
   color: #2e2f42;
 }
@@ -85,6 +98,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -92,15 +106,6 @@ body {
 /*--------/section 3 -----*/
 
 /*-----------Section 4 ------*/
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
 .workers-name {
   font-weight: 500;
   font-size: 20px;
