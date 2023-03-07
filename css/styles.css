@@ -38,6 +38,22 @@ body {
 .site-nav .link.current {
   color: var(--list-color);
 }
+/*------- Address----------*/
+.aside-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #d9d9d9;
+}
+.aside-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .header-link {
   font-family: "Raleway", sans-serif;
@@ -81,6 +97,7 @@ body {
   background: var(--secondary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 /*------------- /Section 1 ---------*/
 /*------------- Section 2 ---------*/
@@ -110,7 +127,6 @@ body {
   color: var(--list-color);
 }
 /*--------/section 3 -----*/
-
 /*-----------Section 4 ------*/
 .workers-name {
   font-weight: 500;
