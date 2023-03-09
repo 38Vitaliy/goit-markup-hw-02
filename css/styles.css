@@ -30,29 +30,9 @@ body {
 .header-navigation {
   color: var(--secondary-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--list-color);
-}
 
 .site-nav .link.current {
   color: var(--list-color);
-}
-/*------- Address----------*/
-.aside-mail {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #d9d9d9;
-}
-.aside-tel {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .header-link {
@@ -73,6 +53,14 @@ body {
   text-transform: uppercase;
   color: var(--list-color);
 }
+.link {
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--list-color);
+}
+.current {
+}
 .header-list {
   font-weight: 500;
   font-size: 16px;
@@ -80,14 +68,47 @@ body {
   letter-spacing: 0.02em;
   color: var(--list-color);
 }
-.header-tel {
+.header-list .link:hover {
+  color: red;
+}
+.header-list .link:focus {
+  color: red;
+}
+/*------- Address----------*/
+.aside {
+}
+.aside-team {
+}
+.aside-mail {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #d9d9d9;
 }
+.link {
+}
+.aside-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /*------------- Section 1 ---------*/
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
 .header-btn {
   font-weight: 500;
   font-size: 16px;
@@ -118,7 +139,6 @@ body {
 /*------- /Section 2 ----*/
 /*-----------Section 3 ------*/
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -128,6 +148,12 @@ body {
 }
 /*--------/section 3 -----*/
 /*-----------Section 4 ------*/
+.section-title {
+  background: #f4f4fd;
+}
+.img-team {
+  background: #ffffff;
+}
 .workers-name {
   font-weight: 500;
   font-size: 20px;
@@ -137,7 +163,6 @@ body {
   color: var(--list-color);
 }
 .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -149,8 +174,6 @@ body {
 
 .footer {
   background: var(--list-color);
-  width: 1440px;
-  height: 310px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -171,23 +194,32 @@ body {
   color: #f4f4fd;
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-  position: absolute;
-  width: 264px;
-  height: 72px;
 }
 /*-------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------- PORTFOLIO-----------------------------------------------------------*/
+.portfolio {
+}
+.visually-hidden {
+}
+.portfolio-btn {
+}
+.link {
+}
+.button {
+  font-family: inherit;
+}
+
 .primary {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 .secondary {
   font-weight: 500;
@@ -195,6 +227,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--secondary-color);
+  cursor: pointer;
 }
 .button .primary:hover {
   background: #404bbf;
@@ -210,7 +243,6 @@ body {
   color: var(--list-color);
 }
 .function-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
