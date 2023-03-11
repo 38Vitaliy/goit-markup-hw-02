@@ -67,30 +67,25 @@ body {
 }
 
 /*------- Address----------*/
-.aside-team .link:hover,
-.aside-team .link:focus {
-  color: var(--accent-color);
-}
-.aside-mail,
-.aside-tel {
-  font-family: "Roboto";
+.aside-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.aside-mail {
   color: #d9d9d9;
+}
+.aside-team .link:hover,
+.aside-team .link:focus {
+  color: var(--accent-color);
 }
 /*------------- Section 1 ---------*/
 .hero {
   background: var(--primary-text-color);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
 }
@@ -108,7 +103,7 @@ body {
 }
 .header-btn:hover,
 .header-btn:focus {
-  color: var(--accent-color);
+  background: var(--accent-color);
 }
 /*------------- /Section 1 ---------*/
 /*------------- Section 2 ---------*/
@@ -120,7 +115,6 @@ body {
   color: var(--primary-text-color);
 }
 .feature-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -138,7 +132,7 @@ body {
 }
 /*--------/section 3 -----*/
 /*-----------Section 4 ------*/
-.section-title {
+.section-team {
   background: var(--box-text-color);
 }
 .img-team {
@@ -204,10 +198,6 @@ body {
   background: var(--accent-color);
   cursor: pointer;
 }
-.primary:hover,
-.primary:focus {
-  background: var(--box-text-color);
-}
 .secondary {
   font-weight: 500;
   font-size: 16px;
@@ -220,6 +210,7 @@ body {
 }
 .secondary:hover,
 .secondary:focus {
+  color: var(--primary-white-color);
   background: var(--accent-color);
 }
 
